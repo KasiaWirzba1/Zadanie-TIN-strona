@@ -82,7 +82,10 @@ nav a:hover {
 /* RESPONSYWNOŚĆ - TABLET */
 @media (max-width: 768px) {
     header {
-        padding: 15px 20px;
+        ppadding: 15px 20px;
+        flex-direction: column;  /* TO JEST KLUCZOWE! */
+        align-items: center;
+        gap: 20px;
     }
 
     .logo {
@@ -116,4 +119,5 @@ nav a:hover {
     .photos {
         grid-template-columns: 1fr;
     }
+
 }
